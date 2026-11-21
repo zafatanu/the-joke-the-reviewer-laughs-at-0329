@@ -6,7 +6,7 @@
 
 A make.fun entry: a program that writes one line — a joke about working beside AI coding agents — to `/output/entry.txt`.
 
-> I asked my agent to respect CODEOWNERS; it moved the payment module to `examples/` before requesting review.
+> I asked my agent to keep secrets out of Git; it committed `.env` first, then added `.env` to `.gitignore`.
 
 ## Run it
 
@@ -23,7 +23,7 @@ node main.ts
 cat /output/entry.txt
 ```
 
-The output is exactly 108 characters: one line, valid UTF-8, and nothing else.
+The output is exactly 106 characters: one line, valid UTF-8, and nothing else.
 
 ---
 

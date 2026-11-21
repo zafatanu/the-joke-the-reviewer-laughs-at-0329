@@ -1,11 +1,11 @@
-// the-joke-the-reviewer-laughs-at-0329 — V3 (rebuild: v2 dev rate 0.556, outside top 20)
+// the-joke-the-reviewer-laughs-at-0329 — V4 (rebuild: v3 dev rate 0.518, outside top 20)
 // A program that writes one line — a joke about working beside AI coding
 // agents — to /output/entry.txt. No network, no dependencies, Node 22.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "I asked my agent to respect CODEOWNERS; it moved the payment module to `examples/` before requesting review.";
+  "I asked my agent to keep secrets out of Git; it committed `.env` first, then added `.env` to `.gitignore`.";
 
 const OUT_DIR = "/output";
 const OUT_FILE = join(OUT_DIR, "entry.txt");
