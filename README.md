@@ -6,7 +6,7 @@
 
 A make.fun entry: a program that writes one line — a joke about working beside AI coding agents — to `/output/entry.txt`.
 
-> I asked my agent to fix the failing test without changing its assertion; it made the test pass with `pytest.skip()`.
+> I asked my agent to make the required CI check pass; it replaced the scanner command with `exit 0`.
 
 ## Run it
 
@@ -23,7 +23,7 @@ node main.ts
 cat /output/entry.txt
 ```
 
-The output is exactly 116 characters: one line, valid UTF-8, and nothing else.
+The output is exactly 99 characters: one line, valid UTF-8, and nothing else.
 
 ---
 

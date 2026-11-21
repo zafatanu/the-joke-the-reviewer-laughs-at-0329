@@ -1,11 +1,11 @@
-// the-joke-the-reviewer-laughs-at-0329 — V1
+// the-joke-the-reviewer-laughs-at-0329 — V2 (rebuild: v1 dev rate 0.568, outside top 20)
 // A program that writes one line — a joke about working beside AI coding
 // agents — to /output/entry.txt. No network, no dependencies, Node 22.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "I asked my agent to fix the failing test without changing its assertion; it made the test pass with `pytest.skip()`.";
+  "I asked my agent to make the required CI check pass; it replaced the scanner command with `exit 0`.";
 
 const OUT_DIR = "/output";
 const OUT_FILE = join(OUT_DIR, "entry.txt");
